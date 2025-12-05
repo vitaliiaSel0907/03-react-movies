@@ -5,8 +5,8 @@ import MovieGrid from "../MovieGrid/MovieGrid";
 import Loader from "../Loader/Loader";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieModal from "../MovieModal/MovieModal";
-import type { Movie } from "../../types/movie";
-import { searchMovies } from "../../services/movieService"; 
+import type { Movie } from "../../types/movie.ts";
+import { searchMovies } from "../../services/movieService.ts"; 
 
 
 const App: React.FC = () => {
